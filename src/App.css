@@ -1,0 +1,71 @@
+body {
+  background-image: url(background.jpg);
+  
+  background-size: cover;
+  
+}
+
+.App {
+  background-color: rgb(140, 151, 140);
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+}
+.crossed {
+  text-decoration: line-through 2px rgb(114, 34, 34);
+  background-color: rgb(165, 177, 165);
+  -webkit-text-decoration-line: line-through;
+
+-webkit-text-decoration-color: rgb(114, 34, 34);
+
+-webkit-text-decoration-thickness:2px;
+}
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 30px;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 40px;
+  color: rgb(247, 244, 240);
+  padding-top: 20px;
+}
+input {
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.add {
+
+  background: #3b5713;
+  margin-top: 5px;
+  
+}
+
+.delete {
+  background: rgb(114, 34, 34);
+  margin-bottom: 5px;
+}
+
+
+
+.btn {
+padding: 10px;
+border: none;
+width: 70%;
+color: white;
+font-size: 16px;
+font-family: 'Montserrat', sans-serif;
+border-radius: 10px;
+}
